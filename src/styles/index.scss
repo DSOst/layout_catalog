@@ -82,7 +82,7 @@ body {
     &:hover {
       color: var(--main-color);
       text-decoration-line: underline;
-      transition-property: var(--main-color);
+      transition-property: color;
       transition-duration: 300ms;
       transition-timing-function: linear;
     }
@@ -187,8 +187,7 @@ body {
         color: #616070;
       }
       &-amount {
-        font-weight: 700;
-        font-weight: bold;
+        font-weight: 700 bold;
         font-size: 16px;
         color: #060b35;
       }
@@ -212,7 +211,7 @@ body {
         border: 1px solid #00acdc;
         background-color: #fff;
         color: #00acdc;
-        transition-property: var(--main-color);
+        transition-property: color;
         transition-duration: 300ms;
         transition-timing-function: linear;
       }
